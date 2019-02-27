@@ -10,12 +10,12 @@ void initSensor()
 
 float readTemperature()
 {
-	return dht.readTemperature() + DHT_TEMP_OFFSET;
+	return dht.readTemperature();
 }
 
 float readHumidity()
 {
-	return dht.readHumidity() + DHT_HUMID_OFFSET;
+	return dht.readHumidity();
 }
 
 void readMessage(char *payload)

@@ -16,9 +16,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Feather.ino" />
+    <None Include="Credentials.ino" />
+    <None Include="Message.ino" />
+    <None Include="IoTHubClient.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.Feather.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dhtSensor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
