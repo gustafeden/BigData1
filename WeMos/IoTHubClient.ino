@@ -111,7 +111,7 @@ int deviceMethodCallback(
 	}
 	else if (strcmp(methodName, "github") == 0)
 	{
-		result = "";
+		responseMessage = GITHUB_LINK;
 	}
 	else
 	{

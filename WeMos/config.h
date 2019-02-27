@@ -6,6 +6,7 @@
 #define DEVICE_LOCATION_LON   "17.972290"      
 //#define DEVICE_SEND_INTERVAL  3600000               //default 3600000 ms = 1 hour
 #define DEVICE_SEND_INTERVAL  308571
+#define GITHUB_LINK "https://github.com/gustafeden/BigData1"
 
 #define WIFI_SSID             "IoT"
 #define WIFI_PASS             "IoT2018!"
