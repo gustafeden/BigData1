@@ -14,10 +14,10 @@ namespace noSQLReader
     class Program
     {
         private static readonly string endpointUrl = "https://iot18cosmosdb1.documents.azure.com:443/";
-        private static readonly string authorizationKey = "hOIRiGHfqwAvH9S4NbJ5afsWd9KCJHARBCoRz6s8HZYVkame0iildXLTpRMqzH3RHWjWMgdIV97yLKJABIAIcQ==";
+        private static readonly string authorizationKey = "";
         private static readonly string databaseId = "iotmessages";
         private static readonly string collectionId = "BigData";
-        private static readonly string SqlConnectionString = @"Server=tcp:iot18sqlserver1.database.windows.net,1433;Initial Catalog=IoT18SQLdb;Persist Security Info=False;User ID=gustafeden;Password=Doiylv12;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        private static readonly string SqlConnectionString = "";
         private static readonly ConnectionPolicy connectionPolicy = new ConnectionPolicy { UserAgentSuffix = " samples-net/2" };
 
         private static DocumentClient client;
