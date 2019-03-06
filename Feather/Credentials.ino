@@ -9,6 +9,7 @@ void initMultiWifi() {
 	wifiMulti.addAP("iPhone x", "hejhejhej");
 	wifiMulti.addAP("Caesar's Palace 2.0", "kingofpop");
 	wifiMulti.addAP("IoT", "IoT2018!");
+	wifiMulti.addAP("Caesar's Palace", "Kingofpop1");
 	Serial.println("Connecting");
 	while (wifiMulti.run() != WL_CONNECTED) {
 		delay(250);
